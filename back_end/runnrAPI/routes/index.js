@@ -5,6 +5,21 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
+router.get('/runs', function(req, res){
+	var db = req.db;
+	var collection = db.get('runcollection');
+	collection.find({},{}, function(err, docs){
+		res.json(docs);
+	});
+});
+router.get('/runs/:user', function(req, res){
+	var db = req.db;
+	var collection = db.get('runcollection');
+	var userName = req.params.user;
+	collection.find({ "username" : userName }, function(err, doc){
+		res.json(doc);
+	});
+});
 /* GET Userlist page. */
 router.get('/userlist', function(req, res) {
     var db = req.db;
@@ -23,14 +38,14 @@ router.post('/finishRun', function(req, res, next){
 	var db = req.db;
 
 	var userName = req.body.userName;
-	var time = req.body.timeOfRun;
+	var time = req.body.runtime;
 	var coordinates = req.body.coordinates;
 
 	var runCollection = db.get('runcollection');
 
 	runCollection.insert({
 		"username" : userName,
-		"time" : time,
+		"runtime" : time,
 		"coordinates" : coordinates
 	}, function (err, doc){
 		if(err){
@@ -42,19 +57,5 @@ router.post('/finishRun', function(req, res, next){
 		}
 	});
 });
-router.get('/runs', function(req, res){
-	var db = req.db;
-	var collection = db.get('runcollection');
-	collection.find({},{}, function(err, docs){
-		res.json(docs);
-	});
-});
-router.get('/runs/:user', function(req, res){
-	var db = req.db;
-	var collection = db.get('runcollection');
-	var userName = req.params.user;
-	collection.find({ "username" : userName }, function(err, doc){
-		res.json(doc);
-	});
-});
+
 module.exports = router;
