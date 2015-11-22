@@ -40,13 +40,14 @@ router.post('/finishRun', function(req, res, next){
 	var userName = req.body.userName;
 	var time = req.body.runtime;
 	var coordinates = req.body.coordinates;
-
+	var distance = req.body.distance;
 	var runCollection = db.get('runcollection');
 
 	runCollection.insert({
 		"username" : userName,
 		"runtime" : time,
-		"coordinates" : coordinates
+		"coordinates" : coordinates,
+		"distance" : distance
 	}, function (err, doc){
 		if(err){
 			res.send("Error adding information into the database.");
