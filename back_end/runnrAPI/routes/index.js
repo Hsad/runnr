@@ -82,6 +82,39 @@ router.post('/finishRun', function(req, res, next){
 		}
 	});
 });
+//Add a user to a team. Both parameters should be put in the post request.
+router.post('/addtoteam', function(req, res, next){
+    var db = req.db;
+    var users = db.get('usercollection');
+
+    var userName = req.body.username;
+    var userTeam = req.body.team;
+
+    users.update({username : userName}, {$set : {team : userTeam}}, function(err, doc){
+        if(err){
+            console.log("Team Member not added succesfully");
+
+        } else {
+            console.log("Added team member sucessfully");
+        }
+    });
+});
+//Returns all 
+router.get('/teams/:teamname', function(req, res, next){
+	var db = req.db;
+	var users = db.get('usercollection');
+
+	var requestedTeam = req.params.teamname;
+
+	users.find({team : requestedTeam}, function(err, docs){
+		if(err){
+			res.json({status : false});
+		} else {
+			res.json(docs);
+		}
+	});
+});
+
 /*
 	AREA CALCULATION CODE (DASH KIELER)
 */

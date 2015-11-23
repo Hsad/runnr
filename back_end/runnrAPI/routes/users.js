@@ -13,6 +13,7 @@ router.post('/', function(req, res, next) {
     var userScore = req.body.userscore;
     var userEmail = req.body.useremail;
     var userPwd = req.body.password;
+    var userTeam = req.body.team;
     console.log("Keep me... POSTED... hah...");
     // Set our collection
     var collection = db.get('usercollection');
@@ -22,7 +23,8 @@ router.post('/', function(req, res, next) {
         "username" : userName,
         "score" : userScore,
         "email" : userEmail,
-        "password" : userPwd
+        "password" : userPwd,
+        "team" : userTeam
     }, function (err, doc) {
         if (err) {
             // If it failed, return error
@@ -34,6 +36,7 @@ router.post('/', function(req, res, next) {
         }
     });
 });
+
 
 /* GET /users/id */
 router.get('/:id', function(req, res, next) {
