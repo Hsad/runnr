@@ -57,8 +57,6 @@ router.post('/finishRun', function(req, res, next){
 		if(err){
 			res.send("Error adding information into the database.");
 		} else {
-			res.send(doc);
-			res.end("wewlad");
 			var newscore = 0;
 			var coordlist = [];
 			for(var i = 0; i < coordinates.length; i+=2){
@@ -77,6 +75,8 @@ router.post('/finishRun', function(req, res, next){
 					console.log("Updated succesfully");
 				}
 			});
+			res.send(doc);
+			res.end("wewlad");
 
 			// res.send(doc);
 		}
