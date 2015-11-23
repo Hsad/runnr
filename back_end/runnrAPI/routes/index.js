@@ -201,7 +201,7 @@ function GetLoopsAsPointArray(GPSdata){
 	//size of the loop must be > 1
 	for (var slowIter = 0; slowIter + 3 < GPSdata.length; slowIter++){
 		for (var fastIter = slowIter + 2; fastIter + 1 < GPSdata.length; fastIter++){
-			if (intersecting(slowIter, fastIter, GPSdata)){
+			if ( ! intersecting(slowIter, fastIter, GPSdata)){
 				//add a loop tuple (startNode, endNode) Don't miss the + 1
 				//could be a class too, what ever works
 				Loops.push( [slowIter + 1, fastIter] );
