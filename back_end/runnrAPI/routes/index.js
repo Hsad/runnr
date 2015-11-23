@@ -58,10 +58,11 @@ router.post('/finishRun', function(req, res, next){
 			res.send("Error adding information into the database.");
 		} else {
 			var newscore = 0;
+			//parse to get usable format
+			var coords = JSON.parse(coordinates);
 			var coordlist = [];
-			for(var i = 0; i < coordinates.length; i+=2){
-				coordlist.push([coordinates[i], coordinates[i+1]]);
-
+			for(var i = 0; i < coords.length; i+=2){
+				coordlist.push([coords[i], coords[i+1]]);
 			}
 
 			userCollection.find({username : userName}, function(err, result){
@@ -116,7 +117,7 @@ router.get('/teams/:teamname', function(req, res, next){
 		}
 	});
 });
-
+//[37.23534345, -122.323453452, 37.3423424
 /*
 	AREA CALCULATION CODE (DASH KIELER)
 */
