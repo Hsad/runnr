@@ -256,9 +256,9 @@ function GetLoopsAsPointArray(GPSdata){
 function ShortCalc(GPSdata){
 	var dist = 0;
 	for(var x = 0; x + 1 < GPSdata.length; x++){
-		dist = DistanceBetween(GPSdata[x], GPSdata[x+1});
+		dist = DistanceBetween(GPSdata[x], GPSdata[x+1]);
 	}
-	//dist = Math.pow((dist / 4), 1.75);
+	dist = Math.pow((dist / 4), 1.75);
 	return dist;
 }
    
