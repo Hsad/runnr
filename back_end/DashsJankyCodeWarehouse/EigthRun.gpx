@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <!--desc>Map data copyright 2015 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2015</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/383+Hoosick+St,+Troy,+NY+12180/42.7438439,-73.6673391/42.7428289,-73.6740234/42.7455032,-73.6791822/42.7365439,-73.6765725/42.7365439,-73.6635845/@42.7375246,-73.6777863,14.5z/data=!4m13!4m12!1m5!1m1!1s0x89de0f8fbc4d5b41:0xc6e27f95c5735fd7!2m2!1d-73.661846!2d42.7381541!1m0!1m0!1m0!1m0!1m0!3e2?hl=en</url-->
+    <time>2015-11-23T17:58:05Z</time>
+  </metadata>
+  <wpt lat="42.7381541" lon="-73.661846">
+    <name>383 Hoosick St</name>
+    <desc>383 Hoosick St, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T17:58:05</time>
+  </wpt>
+  <wpt lat="42.7381541" lon="-73.661846">
+    <name>WP001</name>
+    <time>2015-11-23T17:58:44</time>
+  </wpt>
+  <wpt lat="42.7376926" lon="-73.6660614">
+    <name>WP002</name>
+    <time>2015-11-23T17:59:23</time>
+  </wpt>
+  <wpt lat="42.7410881" lon="-73.6662324">
+    <name>WP003</name>
+    <time>2015-11-23T18:00:02</time>
+  </wpt>
+  <wpt lat="42.743713" lon="-73.666658">
+    <name>WP004</name>
+    <time>2015-11-23T18:00:41</time>
+  </wpt>
+  <wpt lat="42.7438439" lon="-73.6673391">
+    <name>WP005</name>
+    <time>2015-11-23T18:01:20</time>
+  </wpt>
+  <wpt lat="42.743882" lon="-73.667686">
+    <name>WP006</name>
+    <time>2015-11-23T18:01:59</time>
+  </wpt>
+  <wpt lat="42.741052" lon="-73.667501">
+    <name>WP007</name>
+    <time>2015-11-23T18:02:38</time>
+  </wpt>
+  <wpt lat="42.7379825" lon="-73.6680505">
+    <name>WP008</name>
+    <time>2015-11-23T18:03:18</time>
+  </wpt>
+  <wpt lat="42.7389622" lon="-73.6748934">
+    <name>WP009</name>
+    <time>2015-11-23T18:03:57</time>
+  </wpt>
+  <wpt lat="42.742805" lon="-73.673849">
+    <name>WP010</name>
+    <time>2015-11-23T18:04:36</time>
+  </wpt>
+  <wpt lat="42.7428332" lon="-73.6740221">
+    <name>WP011</name>
+    <time>2015-11-23T18:05:15</time>
+  </wpt>
+  <wpt lat="42.7437621" lon="-73.6755341">
+    <name>WP012</name>
+    <time>2015-11-23T18:05:54</time>
+  </wpt>
+  <wpt lat="42.744711" lon="-73.675031">
+    <name>WP013</name>
+    <time>2015-11-23T18:06:33</time>
+  </wpt>
+  <wpt lat="42.7448278" lon="-73.6757738">
+    <name>WP014</name>
+    <time>2015-11-23T18:07:12</time>
+  </wpt>
+  <wpt lat="42.7455047" lon="-73.6791816">
+    <name>WP015</name>
+    <time>2015-11-23T18:07:51</time>
+  </wpt>
+  <wpt lat="42.7454364" lon="-73.6788522">
+    <name>WP016</name>
+    <time>2015-11-23T18:08:31</time>
+  </wpt>
+  <wpt lat="42.737272" lon="-73.681365">
+    <name>WP017</name>
+    <time>2015-11-23T18:09:10</time>
+  </wpt>
+  <wpt lat="42.7365534" lon="-73.6765754">
+    <name>WP018</name>
+    <time>2015-11-23T18:09:49</time>
+  </wpt>
+  <wpt lat="42.735478" lon="-73.6768313">
+    <name>WP019</name>
+    <time>2015-11-23T18:10:28</time>
+  </wpt>
+  <wpt lat="42.7346214" lon="-73.6710909">
+    <name>WP020</name>
+    <time>2015-11-23T18:11:07</time>
+  </wpt>
+  <wpt lat="42.7364517" lon="-73.6705844">
+    <name>WP021</name>
+    <time>2015-11-23T18:11:46</time>
+  </wpt>
+  <wpt lat="42.735667" lon="-73.6650773">
+    <name>WP022</name>
+    <time>2015-11-23T18:12:25</time>
+  </wpt>
+  <wpt lat="42.7365439" lon="-73.6635845">
+    <name>1 Detroit Ave</name>
+    <desc>1 Detroit Ave, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T18:13:04</time>
+  </wpt>
+</gpx>
