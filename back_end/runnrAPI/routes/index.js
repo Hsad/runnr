@@ -270,7 +270,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	
 	//Rightnow there is only profit from running loops
 	//calculate the score for the strait parts of the run
-	var straightRun = LoopsGPSdata[LoopsGPSdata.length];
+	var straightRun = LoopsGPSdata[LoopsGPSdata.length - 1];
 	var lineScore = 0;
 	for (var p = 0; p < straightRun.length - 1; p++){
 		lineScore += DistanceBetween(straightRun[p], straightRun[p+1]);
