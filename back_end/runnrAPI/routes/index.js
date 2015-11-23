@@ -205,6 +205,7 @@ function GetLoopsAsPointArray(GPSdata){
 				//add a loop tuple (startNode, endNode) Don't miss the + 1
 				//could be a class too, what ever works
 				Loops.push( [slowIter + 1, fastIter] );
+				console.log("+++Intersecting");
 			}
 		}
 	}
@@ -212,6 +213,7 @@ function GetLoopsAsPointArray(GPSdata){
 	//If the start and end are close enough together
 	if ( DistanceBetween(GPSdata[0], GPSdata[GPSdata.length - 1]) < DistanceToCloseLoop){
 		Loops.push( [0, GPSdata.length - 1] );
+		console.log("+++Front and back connect");
 	}
 	//////////////////  Get individual Verts in each loop  ////////////////
 	//list sorted from smallest loop size to largest.  Size being number of gps points
@@ -224,6 +226,7 @@ function GetLoopsAsPointArray(GPSdata){
 	//next loop size takes its values, avoiding the ones that have been taken
 	//only loops are calculated
 	for (var loop = 0; loop < Loops.length; loop++){
+		console.log("I shouldn't be printing, loops have been found");
 		var copyArray = [];
 		for (var index = Loops[loop][0]; index < Loops[loop][1] + 1; index++){
 			//if the value is in that loop range & unclaimed, copy it, set it as claimed by a loop
@@ -254,6 +257,7 @@ function GetLoopsAsPointArray(GPSdata){
 //Get individual verts for each loop
 //calculate area of each loop
 function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list of list size two
+	console.log("DDDDDDDDDDD");
 	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
 	//}
@@ -263,6 +267,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	LoopsTotalArea.push();
 	//loop through each individual loops data, but not the last, it is for strait runs
 	for (var L = 0; L < LoopsGPSdata.length - 1; L++){
+		console.log("Calculating the area of the loops");
 		var loopData = LoopsGPSdata[L];
 		var area = CalulateAreaOfLoop(loopData);
 		//add result to array of results
@@ -274,6 +279,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	var straightRun = LoopsGPSdata[LoopsGPSdata.length - 1];
 	var lineScore = 0;
 	for (var p = 0; p < straightRun.length - 1; p++){
+		console.log("line score adding");
 		lineScore += DistanceBetween(straightRun[p], straightRun[p+1]);
 	}
 	lineScore = Math.pow((lineScore / 4), 1.75);
@@ -287,6 +293,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 		ret += LoopsTotalArea[j];
 	}
 	console.log(ret);
+	console.log("DDDDDDDD");
 	return ret; // <- has the areas of each closed loop.  
 }
 
