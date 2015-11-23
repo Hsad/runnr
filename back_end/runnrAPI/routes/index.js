@@ -232,15 +232,16 @@ function GetLoopsAsPointArray(GPSdata){
 	}
 	return LoopsGPSdata;
 }
-
+ 
+   
 //Find Loops from intersections
 //Find if start and end form Loop, (Distance Check)
 //Get individual verts for each loop
 //calculate area of each loop
 function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list of list size two
-	if (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined){
+	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
-	}
+	//}
 	var LoopsGPSData = GetLoopsAsPointArray(GPSdata);
 	///////////////////////  Calculate total area of Loop  ////////////////////
 	var LoopsTotalArea = [];
