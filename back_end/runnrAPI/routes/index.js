@@ -180,7 +180,7 @@ function CalulateAreaOfLoop(loopData){
 		area += (p1[0]*p2[1] - p2[0]*p1[1]) / 2;
 	}
 	//loop around and calulate last to first var
-	var p1 = loopData[loopData.length];
+	var p1 = loopData[loopData.length - 1];
 	var p2 = loopData[0];
 	area += (p1[0]*p2[1] - p2[0]*p1[1]) / 2;
 	return area;
