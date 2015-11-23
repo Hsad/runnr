@@ -82,6 +82,7 @@ router.post('/finishRun', function(req, res, next){
 		}
 	});
 });
+
 //Add a user to a team. Both parameters should be put in the post request.
 router.post('/addtoteam', function(req, res, next){
     var db = req.db;
@@ -99,6 +100,7 @@ router.post('/addtoteam', function(req, res, next){
         }
     });
 });
+
 //Returns all 
 router.get('/teams/:teamname', function(req, res, next){
 	var db = req.db;
@@ -201,7 +203,7 @@ function GetLoopsAsPointArray(GPSdata){
 	//size of the loop must be > 1
 	for (var slowIter = 0; slowIter + 3 < GPSdata.length; slowIter++){
 		for (var fastIter = slowIter + 2; fastIter + 1 < GPSdata.length; fastIter++){
-			if ( ! intersecting(slowIter, fastIter, GPSdata)){
+			if ( intersecting(slowIter, fastIter, GPSdata)){
 				//add a loop tuple (startNode, endNode) Don't miss the + 1
 				//could be a class too, what ever works
 				Loops.push( [slowIter + 1, fastIter] );
@@ -251,6 +253,14 @@ function GetLoopsAsPointArray(GPSdata){
 	return LoopsGPSdata;
 }
  
+function ShortCalc(GPSdata){
+	var dist = 0;
+	for(var x = 0; x + 1 < GPSdata.length; x++){
+		dist = DistanceBetween(GPSdata[x], GPSdata[x+1});
+	}
+	//dist = Math.pow((dist / 4), 1.75);
+	return dist;
+}
    
 //Find Loops from intersections
 //Find if start and end form Loop, (Distance Check)
@@ -258,9 +268,11 @@ function GetLoopsAsPointArray(GPSdata){
 //calculate area of each loop
 function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list of list size two
 	console.log("DDDDDDDDDDD");
+	console.log(GPSdata.length);
 	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
 	//}
+	/*
 	var LoopsGPSdata = GetLoopsAsPointArray(GPSdata);
 	///////////////////////  Calculate total area of Loop  ////////////////////
 	var LoopsTotalArea = [];
@@ -294,7 +306,9 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	}
 	console.log(ret);
 	console.log("DDDDDDDD");
-	return ret; // <- has the areas of each closed loop.  
+	*/
+	//return ret; // <- has the areas of each closed loop.  
+	return ShortCalc(GPSdata);
 }
 
 module.exports = router;
