@@ -268,20 +268,20 @@ function ShortCalc(GPSdata){
 //Get individual verts for each loop
 //calculate area of each loop
 function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list of list size two
+	/*
 	console.log("DDDDDDDDDDD");
 	console.log(GPSdata.length);
 	for (var v=0; v<GPSdata.length; v++){
 		console.log(GPSdata[v][0]);
 		console.log(GPSdata[v][1]);
 	}
+	*/
 	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
 	//}
-	/*
 	var LoopsGPSdata = GetLoopsAsPointArray(GPSdata);
 	///////////////////////  Calculate total area of Loop  ////////////////////
 	var LoopsTotalArea = [];
-	LoopsTotalArea.push();
 	//loop through each individual loops data, but not the last, it is for strait runs
 	for (var L = 0; L < LoopsGPSdata.length - 1; L++){
 		console.log("Calculating the area of the loops");
@@ -301,7 +301,6 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	}
 	lineScore = Math.pow((lineScore / 4), 1.75);
 	LoopsTotalArea.push(lineScore);
-	LoopsTotalArea.push(420);
 
 	//compact into one value
 	var ret = 0;// <- has the areas of each closed loop.  
@@ -309,11 +308,10 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	for (var j = 0; j < LoopsTotalArea.length; j++){
 		ret += LoopsTotalArea[j];
 	}
-	console.log(ret);
-	console.log("DDDDDDDD");
-	*/
-	//return ret; // <- has the areas of each closed loop.  
-	return ShortCalc(GPSdata);
+	//console.log(ret);
+	//console.log("DDDDDDDD");
+	return ret; // <- has the areas of each closed loop.  
+	//return ShortCalc(GPSdata);
 }
 
 module.exports = router;
