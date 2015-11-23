@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <!--desc>Map data copyright 2015 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2015</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/42.7293543,-73.673489/42.7330807,-73.6835183/42.7340502,-73.6868526/42.7341807,-73.6895476/42.7293337,-73.6900361/42.7274144,-73.6780671/42.7317865,-73.676929/42.7338951,-73.676322/42.7342134,-73.6716093/42.7337366,-73.6671556/@42.7295796,-73.6875938,15z/data=!4m2!4m1!3e2?hl=en</url-->
+    <time>2015-11-23T11:17:52Z</time>
+  </metadata>
+  <wpt lat="42.7293543" lon="-73.673489">
+    <name>1501-1531 Sage Ave</name>
+    <desc>1501-1531 Sage Ave, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T11:17:52+00:00</time>
+  </wpt>
+  <wpt lat="42.7293543" lon="-73.673489">
+    <name>WP001</name>
+    <time>2015-11-23T11:18:17+00:00</time>
+  </wpt>
+  <wpt lat="42.732488" lon="-73.6820718">
+    <name>WP002</name>
+    <time>2015-11-23T11:18:43+00:00</time>
+  </wpt>
+  <wpt lat="42.7331402" lon="-73.6835039">
+    <name>WP003</name>
+    <time>2015-11-23T11:19:09+00:00</time>
+  </wpt>
+  <wpt lat="42.7330807" lon="-73.6835183">
+    <name>WP004</name>
+    <time>2015-11-23T11:19:34+00:00</time>
+  </wpt>
+  <wpt lat="42.7331402" lon="-73.6835039">
+    <name>WP005</name>
+    <time>2015-11-23T11:20:00+00:00</time>
+  </wpt>
+  <wpt lat="42.7341128" lon="-73.6868175">
+    <name>WP006</name>
+    <time>2015-11-23T11:20:26+00:00</time>
+  </wpt>
+  <wpt lat="42.7340502" lon="-73.6868526">
+    <name>WP007</name>
+    <time>2015-11-23T11:20:51+00:00</time>
+  </wpt>
+  <wpt lat="42.7341128" lon="-73.6868175">
+    <name>WP008</name>
+    <time>2015-11-23T11:21:17+00:00</time>
+  </wpt>
+  <wpt lat="42.7346126" lon="-73.6879313">
+    <name>WP009</name>
+    <time>2015-11-23T11:21:43+00:00</time>
+  </wpt>
+  <wpt lat="42.7342631" lon="-73.6882869">
+    <name>WP010</name>
+    <time>2015-11-23T11:22:09+00:00</time>
+  </wpt>
+  <wpt lat="42.7341807" lon="-73.6895476">
+    <name>WP011</name>
+    <time>2015-11-23T11:22:34+00:00</time>
+  </wpt>
+  <wpt lat="42.7325424" lon="-73.6899872">
+    <name>WP012</name>
+    <time>2015-11-23T11:23:00+00:00</time>
+  </wpt>
+  <wpt lat="42.731314" lon="-73.690248">
+    <name>WP013</name>
+    <time>2015-11-23T11:23:26+00:00</time>
+  </wpt>
+  <wpt lat="42.73124" lon="-73.689637">
+    <name>WP014</name>
+    <time>2015-11-23T11:23:51+00:00</time>
+  </wpt>
+  <wpt lat="42.7293337" lon="-73.6900361">
+    <name>WP015</name>
+    <time>2015-11-23T11:24:17+00:00</time>
+  </wpt>
+  <wpt lat="42.728723" lon="-73.690173">
+    <name>WP016</name>
+    <time>2015-11-23T11:24:43+00:00</time>
+  </wpt>
+  <wpt lat="42.7276681" lon="-73.6849807">
+    <name>WP017</name>
+    <time>2015-11-23T11:25:09+00:00</time>
+  </wpt>
+  <wpt lat="42.7281604" lon="-73.6848453">
+    <name>WP018</name>
+    <time>2015-11-23T11:25:34+00:00</time>
+  </wpt>
+  <wpt lat="42.7268568" lon="-73.6780893">
+    <name>WP019</name>
+    <time>2015-11-23T11:26:00+00:00</time>
+  </wpt>
+  <wpt lat="42.7274144" lon="-73.6780671">
+    <name>WP020</name>
+    <time>2015-11-23T11:26:26+00:00</time>
+  </wpt>
+  <wpt lat="42.7317865" lon="-73.676929">
+    <name>WP021</name>
+    <time>2015-11-23T11:26:51+00:00</time>
+  </wpt>
+  <wpt lat="42.7338951" lon="-73.676322">
+    <name>WP022</name>
+    <time>2015-11-23T11:27:17+00:00</time>
+  </wpt>
+  <wpt lat="42.7353234" lon="-73.675911">
+    <name>WP023</name>
+    <time>2015-11-23T11:27:43+00:00</time>
+  </wpt>
+  <wpt lat="42.7349495" lon="-73.6732313">
+    <name>WP024</name>
+    <time>2015-11-23T11:28:09+00:00</time>
+  </wpt>
+  <wpt lat="42.7347502" lon="-73.6730997">
+    <name>WP025</name>
+    <time>2015-11-23T11:28:34+00:00</time>
+  </wpt>
+  <wpt lat="42.7346251" lon="-73.6722025">
+    <name>WP026</name>
+    <time>2015-11-23T11:29:00+00:00</time>
+  </wpt>
+  <wpt lat="42.7342875" lon="-73.6721714">
+    <name>WP027</name>
+    <time>2015-11-23T11:29:26+00:00</time>
+  </wpt>
+  <wpt lat="42.7342134" lon="-73.6716093">
+    <name>WP028</name>
+    <time>2015-11-23T11:29:51+00:00</time>
+  </wpt>
+  <wpt lat="42.7342875" lon="-73.6721714">
+    <name>WP029</name>
+    <time>2015-11-23T11:30:17+00:00</time>
+  </wpt>
+  <wpt lat="42.7341784" lon="-73.6721714">
+    <name>WP030</name>
+    <time>2015-11-23T11:30:43+00:00</time>
+  </wpt>
+  <wpt lat="42.7340213" lon="-73.6712592">
+    <name>WP031</name>
+    <time>2015-11-23T11:31:09+00:00</time>
+  </wpt>
+  <wpt lat="42.7324312" lon="-73.6716993">
+    <name>WP032</name>
+    <time>2015-11-23T11:31:34+00:00</time>
+  </wpt>
+  <wpt lat="42.7315086" lon="-73.668819">
+    <name>WP033</name>
+    <time>2015-11-23T11:32:00+00:00</time>
+  </wpt>
+  <wpt lat="42.7338414" lon="-73.6677772">
+    <name>WP034</name>
+    <time>2015-11-23T11:32:26+00:00</time>
+  </wpt>
+  <wpt lat="42.7337366" lon="-73.6671556">
+    <name>2 Georgian Terrace</name>
+    <desc>2 Georgian Terrace, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T11:32:51+00:00</time>
+  </wpt>
+</gpx>

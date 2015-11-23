@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <!--desc>Map data copyright 2015 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2015</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/42.7335403,-73.6805684/42.7330807,-73.6835183/42.7352834,-73.6829301/42.7373614,-73.682014/42.7368039,-73.6781917/42.7364892,-73.6755957/42.7317865,-73.676929/42.7334522,-73.6793695/42.7358167,-73.6792131/42.7380233,-73.6788422/@42.7338667,-73.6796544,15z/data=!4m2!4m1!3e2?hl=en</url-->
+    <time>2015-11-23T11:20:21Z</time>
+  </metadata>
+  <wpt lat="42.7335403" lon="-73.6805684">
+    <name>1014 Peoples Ave</name>
+    <desc>1014 Peoples Ave, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T11:20:21+00:00</time>
+  </wpt>
+  <wpt lat="42.7335403" lon="-73.6805684">
+    <name>WP001</name>
+    <time>2015-11-23T11:21:00+00:00</time>
+  </wpt>
+  <wpt lat="42.7331778" lon="-73.6804825">
+    <name>WP002</name>
+    <time>2015-11-23T11:21:39+00:00</time>
+  </wpt>
+  <wpt lat="42.7336399" lon="-73.680337">
+    <name>WP003</name>
+    <time>2015-11-23T11:22:18+00:00</time>
+  </wpt>
+  <wpt lat="42.7337779" lon="-73.6832918">
+    <name>WP004</name>
+    <time>2015-11-23T11:22:57+00:00</time>
+  </wpt>
+  <wpt lat="42.7330807" lon="-73.6835183">
+    <name>WP005</name>
+    <time>2015-11-23T11:23:36+00:00</time>
+  </wpt>
+  <wpt lat="42.7352834" lon="-73.6829301">
+    <name>WP006</name>
+    <time>2015-11-23T11:24:15+00:00</time>
+  </wpt>
+  <wpt lat="42.7374013" lon="-73.682304">
+    <name>WP007</name>
+    <time>2015-11-23T11:24:54+00:00</time>
+  </wpt>
+  <wpt lat="42.7373614" lon="-73.682014">
+    <name>WP008</name>
+    <time>2015-11-23T11:25:34+00:00</time>
+  </wpt>
+  <wpt lat="42.736804" lon="-73.6781917">
+    <name>WP009</name>
+    <time>2015-11-23T11:26:13+00:00</time>
+  </wpt>
+  <wpt lat="42.7364044" lon="-73.6756195">
+    <name>WP010</name>
+    <time>2015-11-23T11:26:52+00:00</time>
+  </wpt>
+  <wpt lat="42.7364892" lon="-73.6755957">
+    <name>WP011</name>
+    <time>2015-11-23T11:27:31+00:00</time>
+  </wpt>
+  <wpt lat="42.7317865" lon="-73.676929">
+    <name>WP012</name>
+    <time>2015-11-23T11:28:10+00:00</time>
+  </wpt>
+  <wpt lat="42.73301" lon="-73.6765809">
+    <name>WP013</name>
+    <time>2015-11-23T11:28:49+00:00</time>
+  </wpt>
+  <wpt lat="42.7334522" lon="-73.6793695">
+    <name>WP014</name>
+    <time>2015-11-23T11:29:28+00:00</time>
+  </wpt>
+  <wpt lat="42.7334584" lon="-73.6794047">
+    <name>WP015</name>
+    <time>2015-11-23T11:30:07+00:00</time>
+  </wpt>
+  <wpt lat="42.735753" lon="-73.67879">
+    <name>WP016</name>
+    <time>2015-11-23T11:30:47+00:00</time>
+  </wpt>
+  <wpt lat="42.7358167" lon="-73.6792131">
+    <name>WP017</name>
+    <time>2015-11-23T11:31:26+00:00</time>
+  </wpt>
+  <wpt lat="42.736044" lon="-73.680724">
+    <name>WP018</name>
+    <time>2015-11-23T11:32:05+00:00</time>
+  </wpt>
+  <wpt lat="42.7395205" lon="-73.6797343">
+    <name>WP019</name>
+    <time>2015-11-23T11:32:44+00:00</time>
+  </wpt>
+  <wpt lat="42.739243" lon="-73.676848">
+    <name>WP020</name>
+    <time>2015-11-23T11:33:23+00:00</time>
+  </wpt>
+  <wpt lat="42.7383025" lon="-73.6772333">
+    <name>WP021</name>
+    <time>2015-11-23T11:34:02+00:00</time>
+  </wpt>
+  <wpt lat="42.7386847" lon="-73.6786723">
+    <name>WP022</name>
+    <time>2015-11-23T11:34:41+00:00</time>
+  </wpt>
+  <wpt lat="42.7380233" lon="-73.6788422">
+    <name>247 11th St</name>
+    <desc>247 11th St, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T11:35:20+00:00</time>
+  </wpt>
+</gpx>
