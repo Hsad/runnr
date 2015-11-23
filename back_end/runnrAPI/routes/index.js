@@ -170,9 +170,9 @@ function DistanceBetween(gpsPoint1, gpsPoint2){
 }
 
 
-function CalulateAreaOfLoop(LoopData){
+function CalulateAreaOfLoop(loopData){
 	//for each point in the loop data
-	for (var point = 0; point + 0 < loopData.length; points++){
+	for (var point = 0; point + 0 < loopData.length; point++){
 		//calculate area per point
 		var p1 = loopData[point];
 		var p2 = loopData[point + 1];
