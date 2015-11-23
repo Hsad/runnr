@@ -65,9 +65,11 @@ router.post('/finishRun', function(req, res, next){
 				coordlist.push([coordinates[i], coordinates[i+1]]);
 
 			}
+
 			userCollection.find({username : userName}, function(err, result){
 				newscore = result.score;
 			});
+			newscore += CalculateTerritoryFromRun(coordlist);
 			userCollection.update({username : userName }, {$set : {score : newscore}}, function(err, doc){
 				if(err){
 					console.log("Woah there! error!");
