@@ -230,27 +230,50 @@ function GetLoopsAsPointArray(GPSdata){
 		}
 		LoopsGPSdata.push(copyArray);
 	}
+	var copyArray2 = [];
+	for (var x = 0; x < GPScopy.length; x++){
+		if ( GPScopy[x] != undefined ){
+			copyArray2.push(GPScopy[x]);
+			//GPScopy[x] = undefined;
+		}
+	}
+	LoopsGPSdata.push(copyArray);
+
+	//returns a list of lists, each item are the points that make up a loop
+	//last list are the points from the non looping sections
 	return LoopsGPSdata;
 }
-
+ 
+   
 //Find Loops from intersections
 //Find if start and end form Loop, (Distance Check)
 //Get individual verts for each loop
 //calculate area of each loop
 function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list of list size two
-	if (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined){
+	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
-	}
+	//}
 	var LoopsGPSData = GetLoopsAsPointArray(GPSdata);
 	///////////////////////  Calculate total area of Loop  ////////////////////
 	var LoopsTotalArea = [];
-	//loop through each individual loops data
-	for (var L = 0; L < LoopsGPSdata.length; L++){
+	//loop through each individual loops data, but not the last, it is for strait runs
+	for (var L = 0; L < LoopsGPSdata.length - 1; L++){
 		var loopData = LoopsGPSdata[L];
 		var area = CalulateAreaOfLoop(loopData);
 		//add result to array of results
 		LoopsTotalArea.push(area);
 	}
+	
+	//Rightnow there is only profit from running loops
+	//calculate the score for the strait parts of the run
+	var straightRun = LoopsGPSdata[LoopsGPSdata.length];
+	var lineScore = 0;
+	for (var p = 0; p < straightRun.length - 1; p++){
+		lineScore += DistanceBetween(straightRun[p], straightRun[p+1]);
+	}
+	lineScore = Math.pow((lineScore / 4), 1.75);
+	LoopsTotalArea.push(lineScore);
+
 	return LoopsTotalArea // <- has the areas of each closed loop.  
 }
 
