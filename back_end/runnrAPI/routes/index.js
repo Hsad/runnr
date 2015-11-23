@@ -260,6 +260,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	var LoopsGPSdata = GetLoopsAsPointArray(GPSdata);
 	///////////////////////  Calculate total area of Loop  ////////////////////
 	var LoopsTotalArea = [];
+	LoopsTotalArea.push(69);
 	//loop through each individual loops data, but not the last, it is for strait runs
 	for (var L = 0; L < LoopsGPSdata.length - 1; L++){
 		var loopData = LoopsGPSdata[L];
@@ -277,6 +278,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	}
 	lineScore = Math.pow((lineScore / 4), 1.75);
 	LoopsTotalArea.push(lineScore);
+	LoopsTotalArea.push(420);
 
 	return LoopsTotalArea // <- has the areas of each closed loop.  
 }
