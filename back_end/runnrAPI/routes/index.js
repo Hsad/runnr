@@ -269,6 +269,10 @@ function ShortCalc(GPSdata){
 function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list of list size two
 	console.log("DDDDDDDDDDD");
 	console.log(GPSdata.length);
+	for (var v=0; v<GPSdata.length; v++){
+		console.log(GPSdata[v][0]);
+		console.log(GPSdata[v][1]);
+	}
 	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
 	//}
