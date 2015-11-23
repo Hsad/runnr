@@ -280,7 +280,14 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	LoopsTotalArea.push(lineScore);
 	LoopsTotalArea.push(420);
 
-	return LoopsTotalArea.reduce(function(a,b){return a+b;}); // <- has the areas of each closed loop.  
+	//compact into one value
+	var ret = 0;// <- has the areas of each closed loop.  
+	//var ret = LoopsTotalArea.reduce(function(a,b){return a+b;}); // <- has the areas of each closed loop.  
+	for (var j = 0; j < LoopsTotalArea.length; j++){
+		ret += LoopsTotalArea[j];
+	}
+	console.log(ret);
+	return ret; // <- has the areas of each closed loop.  
 }
 
 module.exports = router;
