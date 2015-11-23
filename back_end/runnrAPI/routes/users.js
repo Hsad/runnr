@@ -12,6 +12,7 @@ router.post('/', function(req, res, next) {
     var userName = req.body.username;
     var userScore = req.body.userscore;
     var userEmail = req.body.useremail;
+    var userPwd = req.body.password;
     console.log("Keep me... POSTED... hah...");
     // Set our collection
     var collection = db.get('usercollection');
@@ -20,7 +21,8 @@ router.post('/', function(req, res, next) {
     collection.insert({
         "username" : userName,
         "score" : userScore,
-        "email" : userEmail
+        "email" : userEmail,
+        "password" : userPwd
     }, function (err, doc) {
         if (err) {
             // If it failed, return error
@@ -56,5 +58,18 @@ router.get('/', function(req, res){
 	});
 });
 
+router.get('/login/:username/:pwd', function(req, res){
+    var db = req.db;
+    var collection = db.get('usercollection');
+    var userName = req.params.username;
+    var userPwd = req.params.pwd;
 
+    collection.find({username : userName}, function(err, result){
+        if(result.password == userPwd){
+            res.json({loginsuccess : true});
+        } else {
+            res.json({loginsuccess : false});
+        }
+    })
+});
 module.exports = router;
