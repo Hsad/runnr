@@ -253,7 +253,7 @@ function CalculateTerritoryFromRun(GPSdata){  //GPSdata is expected to be a list
 	//if (GPSdata != undefined || (GPSdata[0][0] == undefined || GPSdata[0][2] != undefined)){
 		//Toss in an asset to stop when the Data is BAD
 	//}
-	var LoopsGPSData = GetLoopsAsPointArray(GPSdata);
+	var LoopsGPSdata = GetLoopsAsPointArray(GPSdata);
 	///////////////////////  Calculate total area of Loop  ////////////////////
 	var LoopsTotalArea = [];
 	//loop through each individual loops data, but not the last, it is for strait runs
