@@ -102,7 +102,7 @@ router.post('/addtoteam', function(req, res, next){
     });
 });
 
-//Returns all 
+//Returns all users that are in the team.
 router.get('/teams/:teamname', function(req, res, next){
 	var db = req.db;
 	var users = db.get('usercollection');
