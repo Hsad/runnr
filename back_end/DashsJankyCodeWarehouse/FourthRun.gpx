@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <!--desc>Map data copyright 2015 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2015</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/42.7444934,-73.6733602/42.7453129,-73.6731563/42.7463687,-73.6728559/42.7470463,-73.6732636/42.7475978,-73.6729417/42.748039,-73.6723624/42.7485275,-73.6718474/42.7491577,-73.6715684/42.7499456,-73.6714826/42.7506862,-73.6713539/@42.7470463,-73.6758171,16z/data=!4m2!4m1!3e0?hl=en</url-->
+    <time>2015-11-23T17:43:57Z</time>
+  </metadata>
+  <wpt lat="42.7444934" lon="-73.6733602">
+    <name>1501-1599 Park Blvd</name>
+    <desc>1501-1599 Park Blvd, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T17:43:57</time>
+  </wpt>
+  <wpt lat="42.744491" lon="-73.673385">
+    <name>WP001</name>
+    <time>2015-11-23T17:45:12</time>
+  </wpt>
+  <wpt lat="42.7453099" lon="-73.6731361">
+    <name>WP002</name>
+    <time>2015-11-23T17:46:27</time>
+  </wpt>
+  <wpt lat="42.7463667" lon="-73.6728428">
+    <name>WP003</name>
+    <time>2015-11-23T17:47:42</time>
+  </wpt>
+  <wpt lat="42.746697" lon="-73.6727487">
+    <name>WP004</name>
+    <time>2015-11-23T17:48:57</time>
+  </wpt>
+  <wpt lat="42.7470548" lon="-73.6732594">
+    <name>WP005</name>
+    <time>2015-11-23T17:50:12</time>
+  </wpt>
+  <wpt lat="42.7471317" lon="-73.6735498">
+    <name>WP006</name>
+    <time>2015-11-23T17:51:27</time>
+  </wpt>
+  <wpt lat="42.7476084" lon="-73.6729568">
+    <name>WP007</name>
+    <time>2015-11-23T17:52:42</time>
+  </wpt>
+  <wpt lat="42.7480482" lon="-73.6723753">
+    <name>WP008</name>
+    <time>2015-11-23T17:53:57</time>
+  </wpt>
+  <wpt lat="42.7485301" lon="-73.6718527">
+    <name>WP009</name>
+    <time>2015-11-23T17:55:12</time>
+  </wpt>
+  <wpt lat="42.7491577" lon="-73.6715682">
+    <name>WP010</name>
+    <time>2015-11-23T17:56:27</time>
+  </wpt>
+  <wpt lat="42.7499442" lon="-73.6714651">
+    <name>WP011</name>
+    <time>2015-11-23T17:57:42</time>
+  </wpt>
+  <wpt lat="42.7506862" lon="-73.6713539">
+    <name>169 Oakwood Ave</name>
+    <desc>169 Oakwood Ave, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T17:58:57</time>
+  </wpt>
+</gpx>

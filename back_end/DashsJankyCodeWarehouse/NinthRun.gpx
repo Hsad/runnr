@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <!--desc>Map data copyright 2015 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2015</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/42.7310737,-73.6884677/42.7301122,-73.6911499/42.7290877,-73.6927807/42.7283311,-73.6953985/42.7310579,-73.6998832/42.7369682,-73.6943256/42.7334851,-73.687824/42.7316095,-73.6883175/@42.7341313,-73.6991751,16z/data=!4m2!4m1!3e2?hl=en</url-->
+    <time>2015-11-23T18:00:10Z</time>
+  </metadata>
+  <wpt lat="42.7310737" lon="-73.6884677">
+    <name>405 Broadway</name>
+    <desc>405 Broadway, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T18:00:10</time>
+  </wpt>
+  <wpt lat="42.7310939" lon="-73.6884639">
+    <name>WP001</name>
+    <time>2015-11-23T18:00:46</time>
+  </wpt>
+  <wpt lat="42.7313787" lon="-73.6908834">
+    <name>WP002</name>
+    <time>2015-11-23T18:01:22</time>
+  </wpt>
+  <wpt lat="42.730115" lon="-73.691126">
+    <name>WP003</name>
+    <time>2015-11-23T18:01:58</time>
+  </wpt>
+  <wpt lat="42.728865" lon="-73.691425">
+    <name>WP004</name>
+    <time>2015-11-23T18:02:34</time>
+  </wpt>
+  <wpt lat="42.7290331" lon="-73.6927927">
+    <name>WP005</name>
+    <time>2015-11-23T18:03:10</time>
+  </wpt>
+  <wpt lat="42.729254" lon="-73.694564">
+    <name>WP006</name>
+    <time>2015-11-23T18:03:46</time>
+  </wpt>
+  <wpt lat="42.7284272" lon="-73.6949721">
+    <name>WP007</name>
+    <time>2015-11-23T18:04:22</time>
+  </wpt>
+  <wpt lat="42.7283749" lon="-73.695388">
+    <name>WP008</name>
+    <time>2015-11-23T18:04:58</time>
+  </wpt>
+  <wpt lat="42.728508" lon="-73.6959498">
+    <name>WP009</name>
+    <time>2015-11-23T18:05:34</time>
+  </wpt>
+  <wpt lat="42.7301167" lon="-73.7014899">
+    <name>WP010</name>
+    <time>2015-11-23T18:06:10</time>
+  </wpt>
+  <wpt lat="42.7311508" lon="-73.7013494">
+    <name>WP011</name>
+    <time>2015-11-23T18:06:46</time>
+  </wpt>
+  <wpt lat="42.731029" lon="-73.6998809">
+    <name>WP012</name>
+    <time>2015-11-23T18:07:22</time>
+  </wpt>
+  <wpt lat="42.7310573" lon="-73.6998763">
+    <name>WP013</name>
+    <time>2015-11-23T18:07:58</time>
+  </wpt>
+  <wpt lat="42.7327243" lon="-73.6996391">
+    <name>WP014</name>
+    <time>2015-11-23T18:08:34</time>
+  </wpt>
+  <wpt lat="42.7327538" lon="-73.6974384">
+    <name>WP015</name>
+    <time>2015-11-23T18:09:10</time>
+  </wpt>
+  <wpt lat="42.7331045" lon="-73.6968014">
+    <name>WP016</name>
+    <time>2015-11-23T18:09:46</time>
+  </wpt>
+  <wpt lat="42.7368879" lon="-73.6945864">
+    <name>WP017</name>
+    <time>2015-11-23T18:10:22</time>
+  </wpt>
+  <wpt lat="42.7369766" lon="-73.694331">
+    <name>WP018</name>
+    <time>2015-11-23T18:10:58</time>
+  </wpt>
+  <wpt lat="42.7370498" lon="-73.6941202">
+    <name>WP019</name>
+    <time>2015-11-23T18:11:34</time>
+  </wpt>
+  <wpt lat="42.7346916" lon="-73.6880193">
+    <name>WP020</name>
+    <time>2015-11-23T18:12:10</time>
+  </wpt>
+  <wpt lat="42.73383" lon="-73.688483">
+    <name>WP021</name>
+    <time>2015-11-23T18:12:46</time>
+  </wpt>
+  <wpt lat="42.7337072" lon="-73.6885073">
+    <name>WP022</name>
+    <time>2015-11-23T18:13:22</time>
+  </wpt>
+  <wpt lat="42.733557" lon="-73.687809">
+    <name>WP023</name>
+    <time>2015-11-23T18:13:58</time>
+  </wpt>
+  <wpt lat="42.7334861" lon="-73.6878303">
+    <name>WP024</name>
+    <time>2015-11-23T18:14:34</time>
+  </wpt>
+  <wpt lat="42.7316095" lon="-73.6883175">
+    <name>45 Williams St</name>
+    <desc>45 Williams St, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T18:15:10</time>
+  </wpt>
+</gpx>

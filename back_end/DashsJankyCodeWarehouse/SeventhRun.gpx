@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="labs.coruscantconsulting.co.uk" version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.coruscantconsulting.co.uk">
+      <text>Coruscant Consulting Ltd. Labs</text>
+    </link>
+    <!--desc>Map data copyright 2015 Google</desc-->
+    <!--copyright author="Google Inc">
+    	<year>2015</year>
+    	<license>https://developers.google.com/maps/terms</license>
+    </copyright-->
+    <!--url>https://www.google.co.uk/maps/dir/42.7382985,-73.670127/42.7250977,-73.6700187/42.7344022,-73.6598782/42.7380069,-73.6623321/42.738166,-73.669297/@42.7332624,-73.6741688,15.25z/data=!4m2!4m1!3e0?hl=en</url-->
+    <time>2015-11-23T17:55:48Z</time>
+  </metadata>
+  <wpt lat="42.7382985" lon="-73.670127">
+    <name>271 Hoosick St</name>
+    <desc>271 Hoosick St, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T17:55:48</time>
+  </wpt>
+  <wpt lat="42.7382773" lon="-73.6701332">
+    <name>WP001</name>
+    <time>2015-11-23T17:57:28</time>
+  </wpt>
+  <wpt lat="42.7382691" lon="-73.670081">
+    <name>WP002</name>
+    <time>2015-11-23T17:59:08</time>
+  </wpt>
+  <wpt lat="42.7248489" lon="-73.6737983">
+    <name>WP003</name>
+    <time>2015-11-23T18:00:48</time>
+  </wpt>
+  <wpt lat="42.7250807" lon="-73.670016">
+    <name>WP004</name>
+    <time>2015-11-23T18:02:28</time>
+  </wpt>
+  <wpt lat="42.7343811" lon="-73.6598369">
+    <name>WP005</name>
+    <time>2015-11-23T18:04:08</time>
+  </wpt>
+  <wpt lat="42.7358516" lon="-73.6584271">
+    <name>WP006</name>
+    <time>2015-11-23T18:05:48</time>
+  </wpt>
+  <wpt lat="42.7392512" lon="-73.6590785">
+    <name>WP007</name>
+    <time>2015-11-23T18:07:28</time>
+  </wpt>
+  <wpt lat="42.7380008" lon="-73.6623285">
+    <name>WP008</name>
+    <time>2015-11-23T18:09:08</time>
+  </wpt>
+  <wpt lat="42.738166" lon="-73.669297">
+    <name>277 Hoosick St</name>
+    <desc>277 Hoosick St, Troy, NY 12180, USA</desc>
+    <time>2015-11-23T18:10:48</time>
+  </wpt>
+</gpx>
