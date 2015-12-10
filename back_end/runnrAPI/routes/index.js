@@ -59,16 +59,17 @@ router.post('/finishRun', function(req, res, next){
 		} else {
 			var newscore = 0;
 			//parse to get usable format
-			var coords = JSON.parse(coordinates);
+			// var coords = JSON.parse(coordinates);
 			var coordlist = [];
-			for(var i = 0; i < coords.length; i+=2){
-				coordlist.push([coords[i], coords[i+1]]);
+			for(var i = 0; i < coordinates.length; i+=2){
+				coordlist.push([coordinates[i], coordinates[i+1]]);
 			}
 
 			userCollection.find({username : userName}, function(err, result){
 				newscore = result.score;
 			});
-			newscore += CalculateTerritoryFromRun(coordlist);
+			//Because the calculations are in lat/long, they result in very small changes, and because we're in the western northern hemisphere, they're all negative.
+			newscore += -1000000* CalculateTerritoryFromRun(coordlist);
 			userCollection.update({username : userName }, {$set : {score : newscore}}, function(err, doc){
 				if(err){
 					console.log("Woah there! error!");
@@ -76,8 +77,8 @@ router.post('/finishRun', function(req, res, next){
 					console.log("Updated succesfully");
 				}
 			});
+			doc["score"] = newscore;
 			res.send(doc);
-			res.end("wewlad");
 
 			// res.send(doc);
 		}
@@ -103,10 +104,10 @@ router.post('/addtoteam', function(req, res, next){
 });
 
 //Returns all users that are in the team.
+
 router.get('/teams/:teamname', function(req, res, next){
 	var db = req.db;
 	var users = db.get('usercollection');
-
 	var requestedTeam = req.params.teamname;
 
 	users.find({team : requestedTeam}, function(err, docs){
@@ -116,6 +117,28 @@ router.get('/teams/:teamname', function(req, res, next){
 			res.json(docs);
 		}
 	});
+});
+
+router.get('/teams/runs/:teamname', function(req, res, next){
+	var db = req.db;
+	var usercollection = db.get('usercollection');
+	var runcollection = db.get('runcollection');
+	var requestedTeam = req.params.teamname;
+	var users = [];
+	usercollection.find({team : requestedTeam}, function(err, docs){
+		users = docs;
+		var allruns = [];
+		var promises = [];
+		for(var i = 0; i < users.length; i++){
+			runcollection.find({username : users.username}, function(err, runsByUser){
+				for(var j = 0; j < runsByUser.length; j++){
+					allruns.push(runsByUser[j]);
+					res.json(allruns);
+				}
+			});
+		}
+	});
+	
 });
 //[37.23534345, -122.323453452, 37.3423424
 /*
